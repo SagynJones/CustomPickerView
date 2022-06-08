@@ -1,0 +1,6 @@
+framework module CustomPickerView {
+  umbrella header "CustomPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

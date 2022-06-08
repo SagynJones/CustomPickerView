@@ -1,0 +1,16 @@
+PODS:
+  - CustomPickerView (0.1.0)
+
+DEPENDENCIES:
+  - CustomPickerView (from `../`)
+
+EXTERNAL SOURCES:
+  CustomPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomPickerView: f760cd5b26638609144ea6be000aa6635c8d24b3
+
+PODFILE CHECKSUM: 75c5d6d44eb733c9ace1362cf644f94f1cb1a32b
+
+COCOAPODS: 1.11.3
