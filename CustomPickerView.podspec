@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 'This library will open a new page to select an element of your array object. Just import and turn on the accessory'
+                        DESC
 
   s.homepage         = 'https://github.com/Sagyn/CustomPickerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
