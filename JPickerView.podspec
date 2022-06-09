@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CustomPickerView'
+  s.name             = 'JPickerView'
   s.version          = '0.1.0'
   s.summary          = 'This library will open a new page to select an element of your array object.'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 'This library will open a new page to select an element of your array object. Just import and turn on the accessory'
                         DESC
 
-  s.homepage         = 'https://github.com/Sagyn/CustomPickerView'
+  s.homepage         = 'https://github.com/SagynJones/CustomPickerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sagyn' => 'akjolovv11@gmail.com' }
-  s.source           = { :git => 'https://github.com/Sagyn/CustomPickerView.git', :tag => s.version.to_s }
+  s.author           = { 'SagynJones' => 'akjolovv11@gmail.com' }
+  s.source           = { :git => 'https://github.com/SagynJones/CustomPickerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
@@ -40,6 +40,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
